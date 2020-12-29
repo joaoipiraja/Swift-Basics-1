@@ -7,7 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+protocol AdvanceLifeSupport{
+    func peformCPR()
+}
 
 class EmergencyCallHandler{
     var delegate:AdvanceLifeSupport?
