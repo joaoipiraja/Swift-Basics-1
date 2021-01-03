@@ -1,9 +1,10 @@
 # Swift Basics 1
  LEARN 📝 | Example of Delegate Design Pattern in Swift 5.1
 
-## Explanation
-Its like a phone call ☎️
-### Protocol
+## Explanation: ITS LIKE A PHONE CALL ☎️
+
+### Protocols
+This is the Delegate representation as a "cake from pan". Metaphorically, is: How the calls between two people needs to be?
 ````Swift
 protocol AdvanceLifeSupport{
     func peformCPR()
