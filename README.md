@@ -39,7 +39,7 @@ struct parametric:AdvanceLifeSupport{
 }
 ````
 ### Seeing in action
-When peter call medicalEmergency ,Joao will receive this and start performCPR as does he knows
+When Peter call medicalEmergency ,Joao will receive this and start performCPR as does he knows
 ````Swift
 let peter = EmergencyCallHandler()
 let joao = parametric(handler: peter)
